@@ -29,53 +29,62 @@ Table description:
 - **Region:** Detail of area in region.
 - **Sales_team:** Sales team information.
 
-![alt text](image.png)
+Entity Relationship Diagram:
+![image](https://github.com/user-attachments/assets/018461e6-d047-46a6-85a5-84be46085ce4)
+
 
 # Executive Summary
 ### Overview of Findings
 In 2020 California achieved the highest overall sales approaching 3.000. While other states had sales under than 1.500, even many states  are under 500. An analysis reveals significant drop in December 2020 with many states has reported zero sales, aside the other 5 states has maintained stable performance. The company want to investigate the factors affecting these sales spikes and declines.
 
 Dashboard overview 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/3467e9c8-2942-4ead-9480-a8873168375c)
 
 ### Business Insight Overview
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/bc09705c-4dd1-46ed-bed6-ec91b211e841)
 1. Total Order Quantity: 13.3K and total Revenue: $26.6M, suggesting strong revenue from these orders. The average revenue per order = $26.6M / 13.3K ≈ $2,000 per order. This implies a high-value product/service or bulk purchases.
 2. Total Profit: $8M and total Unit Cost: $4.2M. Profit Margin = (Profit / Revenue) × 100 = (8M / 26.6M) × 100 ≈ 30%. The 30% profit margin is generally strong, indicating healthy pricing strategies and cost management.
 3. Total Population: 892.1M and total Household Income: $320.5M. Average Household Income per Person = $320.5M / 892.1M ≈ $359 per person. This suggests a market with moderate spending power, meaning pricing strategies should align with customer affordability.
 
 ### Delivery Time Analysis
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/21496f9a-a737-4114-9682-b5e8e89e5871)
 1. The dots on the scatter plot are randomly distributed without any clear pattern & relatively flat, indicating that the land area size does not influence delivery time.
 2. Showing average delivery time between 15 to 25 days.
 
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/b11ede01-702b-425b-ab3e-b303cd4bf00d)
 1. With this bar chart, it shows that majority of delivery time take more than 30 days (1,478 deliveries), while the fastest delivery time 0-5 days tracked for only 72 deliveries.
 
 ### Price and Demand Analysis
-![alt text](image-5.png)
+![image](https://github.com/user-attachments/assets/9ace2867-f76c-461c-9a2f-8ddebd7a6cb0)
 1. Based on the scatter plot, price influences order volume, but it is not the primary factor.
 2. As order quantity increases, the unit price tends to rise, although with significant variation.
 
 ### Product Performance
-![alt text](image-6.png)
+![image](https://github.com/user-attachments/assets/a4af3e5f-fdc3-41fe-8121-83e84410c7a2)
 1. This chart shows that order quantity impacts the revenue. 
 2. The higher order quantity per product = the higher chance revenue per peroduct.
 
 ### Sales Team Performance
-![alt text](image-7.png)
+![image](https://github.com/user-attachments/assets/5eee4bca-e1ed-4c4f-a65e-51b8f5cf51f9)
 1. The number of orders impacts total revenue and average revenue for each state.
 2. This chart shows that the sales with the highest orders do not necessarily generate the highest revenue
 
 ### Population & Household Income Analysis
-![alt text](image-8.png)
+![image](https://github.com/user-attachments/assets/7303cb2e-86bf-4961-988f-45c91094b1f8)
 1. The population and household income in each state affect both demand of orders and revenue in that state.
 
 ### Demography by Population Analysis
-![alt text](image-9.png)
-![alt text](image-10.png)
+![image](https://github.com/user-attachments/assets/79950817-d98a-4e2e-a860-f85c22eb7e31)
+![image](https://github.com/user-attachments/assets/3db909b0-a86e-4efd-a689-77e7c8e48c52)
 1. The Geomap shows that show that areas with large populations have larger circles. Example, California: Population 180 million with household income 58 million, order quantity 2,945 and revenue 5.74 million.
 2. It shows Positive Correlation: The higher the population and household income, the greater the transaction and income opportunities.
+
+### Order Quantity Month-over-Month
+![image](https://github.com/user-attachments/assets/8305901c-3242-4e62-ac87-156e51f00bae)
+1. Based on the line chart, the Order Qty affect Revenue.
+2. Stable Early Year: January to May remained relatively stable, with orders ranging from 1,100 to 1,255.
+3. July Surge: July recorded the highest order volume, although revenue was not the highest. This suggests possible discounts/promotions that boosted sales volume but lowered the average price.
+4. December has the most significant drop in both orders and revenue. This could be due to seasonal factors or changes in business strategy.
 
 
 ## Recommendations:
