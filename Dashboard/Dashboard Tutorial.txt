@@ -1,0 +1,3 @@
+1. Please install Microsoft Power BI first before running the dashboard.
+2. Download the "US Regional Sales Dashboard" file.
+3. Double click it on your local disk.
