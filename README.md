@@ -71,7 +71,11 @@ Dashboard overview
 
 ### Population & Household Income Analysis
 ![image](https://github.com/user-attachments/assets/7303cb2e-86bf-4961-988f-45c91094b1f8)
-1. The population and household income in each state affect both demand of orders and revenue in that state.
+1. **California** has the highest population (180.6M) and generates the highest revenue ($5.74M), indicating its dominance across multiple metrics. **New York** and **Texas** rank second and third in population, but their revenues differ significantly caused by differences in population number.
+2. States like California and New York have very high household incomes ($58.9M and $57.4M, respectively), but the revenue they generate shows significant differences. This suggests differing consumer behaviors or market dynamics in these states.
+3. California not only has the highest order quantity (2,945) but also the highest revenue, showing a strong correlation between orders and revenue.
+4. New York have fewer orders (686) but still generate significant revenue, suggesting higher average order values.
+5. Tennessee, Virginia, and Indiana have the lowest revenues (all below $500K) and relatively small order quantities.
 
 ### Demography by Population Analysis
 ![image](https://github.com/user-attachments/assets/79950817-d98a-4e2e-a860-f85c22eb7e31)
